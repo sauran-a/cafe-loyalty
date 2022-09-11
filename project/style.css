@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%; /*1rem = 10px*/
-  font-family: "Rubik", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
 .wrapper {
   max-width: 144rem;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 nav {
@@ -32,9 +33,49 @@ nav {
   margin-bottom: 2.3rem;
 }
 
-/* BUTTONS */
+/* SECTIONS ============================= */
 
-.btn__nav {
+.section-first {
+  display: flex;
+  background-color: #f3f6fa;
+  padding-top: 16.4rem;
+}
+
+.section-first__box-left {
+  min-width: 44.5rem;
+  margin-left: 16.5rem;
+}
+
+.section-first__heading {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.2px;
+  color: #373f41;
+}
+
+.section-first__text {
+  margin-top: 4rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  color: #737b7d;
+  margin-bottom: 7.8rem;
+}
+
+.section-first__box-right {
+  margin-right: 15rem;
+  margin-left: 9.5rem;
+}
+
+.section-first__img {
+  margin-bottom: 11.2rem;
+}
+
+/* BUTTONS ================================*/
+
+.btn {
   background-color: #3c64b1;
   padding: 1.2rem 1.8rem;
   color: #fff;
@@ -46,9 +87,25 @@ nav {
   letter-spacing: 0.03rem;
 }
 
-.btn__nav--reg {
+.btn--reg {
   background-color: #f3f6fa;
   color: #3c64b1;
   margin-right: 2.1rem;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* MEDIA ============================================================ */
+
+@media (max-width: 1300px) {
+  .nav__logo {
+    margin-left: 10.5rem;
+  }
+
+  .section-first__box-left {
+    margin-left: 10.5rem;
+  }
+
+  .section-first__box-right {
+    margin-left: 4.5rem;
+  }
 }

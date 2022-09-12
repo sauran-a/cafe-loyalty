@@ -182,6 +182,24 @@ nav {
   margin-bottom: 6.4rem;
 }
 
+.footer {
+  height: 6.4rem;
+  background-color: #373f41;
+  color: #c3cbcd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.2px;
+}
+
 /* BUTTONS ================================*/
 
 .btn {

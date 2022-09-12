@@ -73,6 +73,35 @@ nav {
   margin-bottom: 11.2rem;
 }
 
+.section-second {
+  display: flex;
+}
+
+.section-second__box-left {
+  margin-left: 16.5rem;
+  margin-top: 15.9rem;
+}
+
+.section-second__box-right {
+  margin-right: 15rem;
+  margin-left: 5.5rem;
+  margin-top: 18.3rem;
+}
+
+.section-second__heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: 0.1px;
+  color: #373f41;
+}
+
+.section-second__box-right p {
+  margin-top: 1.3rem;
+  margin-bottom: 0;
+}
+
 /* BUTTONS ================================*/
 
 .btn {

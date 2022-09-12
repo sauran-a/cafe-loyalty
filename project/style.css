@@ -148,11 +148,44 @@ nav {
 .section-third__box-right {
   margin-top: 8.4rem;
   margin-right: 15rem;
+  margin-bottom: 9.6rem;
+}
+
+.section-four {
+  background-color: #f3f6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-four__heading {
+  padding-top: 6.4rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: 0.1px;
+}
+
+.section-four__text {
+  margin-top: 3.2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.3px;
+  color: #737b7d;
+  text-align: center;
+  width: 54rem;
+  margin-bottom: 5.6rem;
+}
+
+.section-four button {
+  margin-bottom: 6.4rem;
 }
 
 /* BUTTONS ================================*/
 
 .btn {
+  cursor: pointer;
   background-color: #3c64b1;
   padding: 1.2rem 1.8rem;
   color: #fff;

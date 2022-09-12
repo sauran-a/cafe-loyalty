@@ -102,6 +102,54 @@ nav {
   margin-bottom: 0;
 }
 
+.section-third {
+  margin-left: 16.5rem;
+  display: flex;
+}
+
+.section-third__box-left {
+  margin-top: 8.4rem;
+  margin-right: 3rem;
+  width: 54rem;
+}
+
+.section-third__advantages {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5.6rem;
+}
+
+.section-third__num {
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.3px;
+  color: #3c64b1;
+  margin-bottom: 1.6rem;
+}
+
+.section-third__mini-block {
+  width: 25.5rem;
+  margin-bottom: 4.8rem;
+}
+
+.section-third__mini-block:nth-child(odd) {
+  margin-right: 3rem;
+}
+
+.section-third__text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.3px;
+  color: #737b7d;
+}
+
+.section-third__box-right {
+  margin-top: 8.4rem;
+  margin-right: 15rem;
+}
+
 /* BUTTONS ================================*/
 
 .btn {

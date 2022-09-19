@@ -32,4 +32,4 @@ Frontend - [@DamienAmbient](https://github.com/DamienAmbient)
 [Flask.org]: https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
 [PostgreSQL]: https://img.shields.io/badge/postgresql-808080?style=for-the-badge&logo=postgresql&logoColor=blue
-[PostgreSQL-url]: https://flask.palletsprojects.com/en/2.2.x/
+[PostgreSQL-url]: https://www.postgresql.org/

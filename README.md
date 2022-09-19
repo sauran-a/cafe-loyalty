@@ -27,9 +27,9 @@ Frontend - [@DamienAmbient](https://github.com/DamienAmbient)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Python.org]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white
+[Python.org]: https://img.shields.io/badge/python-3777a8?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://python.org/
-[Flask.org]: https://img.shields.io/badge/flask-ffffff?style=for-the-badge&logo=flask&logoColor=black
+[Flask.org]: https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white
 [Flask-url]: https://flask.palletsprojects.com/en/2.2.x/
-[PostgreSQL]: https://img.shields.io/badge/postgresql-ffffff?style=for-the-badge&logo=postgresql&logoColor=blue
+[PostgreSQL]: https://img.shields.io/badge/postgresql-808080?style=for-the-badge&logo=postgresql&logoColor=blue
 [PostgreSQL-url]: https://flask.palletsprojects.com/en/2.2.x/

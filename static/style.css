@@ -147,7 +147,6 @@ nav {
 
 .section-third__box-right {
   margin-top: 8.4rem;
-  margin-right: 15rem;
   margin-bottom: 9.6rem;
 }
 
@@ -198,6 +197,23 @@ nav {
   font-size: 1.2rem;
   line-height: 1.6rem;
   letter-spacing: 0.2px;
+}
+
+/* LOGIN PAGE ============================*/
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 31.5rem;
+}
+
+.login-box h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.4rem;
 }
 
 /* BUTTONS ================================*/

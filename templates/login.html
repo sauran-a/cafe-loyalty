@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@400;700&family=Mulish:wght@400;500;700&family=Trispace&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-box">
+      <div class="login-box__logo">
+        <img src="../static/images/logo.png" alt="logo" />
+      </div>
+      <div class="login-box__heading">
+        <h2>Вход в личный кабинет</h2>
+      </div>
+
+      <div class="login-box__form">
+        <form class="form" action="#">
+          <label class="form__label" for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            class="form__input"
+            placeholder="johndoe@example.com"
+            name="email"
+          />
+
+          <label class="form__label" for="password">Пароль</label>
+          <input
+            id="password"
+            type="password"
+            class="form__input"
+            placeholder="**************"
+            name="email"
+          />
+        </form>
+
+        <div class="login-box__img">
+          <img class="eye-pic" src="../static/images/Vector.png" alt="" />
+        </div>
+
+        <div class="login-box__forget">
+          <p class="login-box__text">
+            Забыли пароль? <span><a href="#">Восстановить</a></span>
+          </p>
+        </div>
+        <button class="btn btn--enter">Войти</button>
+      </div>
+      <div class="login-box__forget">
+        <p class="login-box__text">
+          Нет аккаунта? <span><a href="#">Свяжитесь для подключения</a></span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

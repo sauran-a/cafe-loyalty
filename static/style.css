@@ -259,6 +259,27 @@ nav {
   right: 37%;
   z-index: 10;
 }
+
+/* ADMIN CABINET ========================== */
+
+.sidebar {
+  height: 100%;
+  width: 25.6rem;
+  background: linear-gradient(
+    180deg,
+    #131c55 0%,
+    rgba(19, 28, 85, 0.35) 104.8%,
+    rgba(19, 28, 85, 0) 169.64%
+  );
+}
+
+.sidebar-top {
+  height: 6.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* BUTTONS ================================*/
 
 .btn {

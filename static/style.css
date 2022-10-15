@@ -10,6 +10,11 @@ body {
   box-sizing: border-box;
 }
 
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .wrapper {
   max-width: 144rem;
   margin: 0 auto;
@@ -263,7 +268,7 @@ nav {
 /* ADMIN CABINET ========================== */
 
 .sidebar {
-  height: 100%;
+  height: 102.4rem;
   width: 25.6rem;
   background: linear-gradient(
     180deg,
@@ -278,8 +283,45 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #0e1b6b;
 }
 
+.sidebar-low {
+  height: 94.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-low__item {
+  display: flex;
+  margin-top: 3.35rem;
+  margin-left: 2rem;
+}
+
+.sibedar-low__img {
+  margin-right: 0.8rem;
+}
+
+.sidebar-low__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.sidebar-low__admin {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.admin__info {
+  margin-left: 0.8rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
 /* BUTTONS ================================*/
 
 .btn {

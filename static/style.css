@@ -3,7 +3,8 @@ html {
   font-family: "Mulish", sans-serif;
 }
 
-body {
+body,
+p {
   margin: 0;
   padding: 0;
   margin-top: 0;
@@ -267,19 +268,26 @@ nav {
 
 /* ADMIN CABINET ========================== */
 
+.container {
+  display: flex;
+  max-width: 144rem;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
 .sidebar {
   height: 102.4rem;
   width: 25.6rem;
   background: linear-gradient(
     180deg,
-    #131c55 0%,
-    rgba(19, 28, 85, 0.35) 104.8%,
-    rgba(19, 28, 85, 0) 169.64%
+    #131c55,
+    rgba(19, 28, 85, 0.35),
+    rgba(19, 28, 85, 0)
   );
 }
 
 .sidebar-top {
-  height: 6.4rem;
+  height: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,6 +299,13 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* background-image: linear-gradient(
+      180deg,
+      #131c55,
+      rgba(19, 28, 85, 0.35),
+      rgba(19, 28, 85, 0)
+    ),
+    url("../static/images/Sidebar-bg.png"); */
 }
 
 .sidebar-low__item {
@@ -313,6 +328,7 @@ nav {
 .sidebar-low__admin {
   display: flex;
   margin-left: 2rem;
+  margin-bottom: 3.4rem;
 }
 
 .admin__info {
@@ -321,6 +337,123 @@ nav {
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+}
+
+.section-users {
+  background-color: E5E5E5;
+}
+
+.section-users__rectangle {
+  background-color: #fff;
+  width: 1184px;
+  height: 80px;
+}
+
+.rectangle__bell {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  margin-left: 112.6rem;
+}
+
+.section-users__clients {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  margin-left: 4rem;
+}
+
+.section-users__search {
+  position: relative;
+}
+
+.section-users__input {
+  margin-left: 4rem;
+  padding-left: 4.4rem;
+  width: 110.4rem;
+  height: 4.9rem;
+  border: 1px solid #4763e4;
+  border-radius: 10px;
+}
+
+.search-img {
+  position: absolute;
+  left: 6rem;
+  top: 1.5rem;
+}
+
+.section-users__btn {
+  margin-left: 4rem;
+  margin-top: 1.6rem;
+}
+
+.section-users__users-list {
+  margin-top: 1.6rem;
+  margin-left: 4rem;
+  width: 110.4rem;
+  height: 68.1rem;
+  background-color: #fff;
+  border-radius: 1.2rem;
+}
+
+.users-list__table-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.users-list__heading {
+  width: 16.67rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #a1a1aa;
+  margin-top: 3.2rem;
+  margin-right: 0.8rem;
+}
+
+.users-list__heading#uheading {
+  width: 20rem;
+  margin-right: 1rem;
+}
+
+.users-list__heading:first-child {
+  margin-left: 3.2rem;
+}
+.users-list__heading:last-child {
+  margin-right: 3.2rem;
+}
+
+.users-list__item-user {
+  display: flex;
+  /* justify-content: space-between; */
+  height: 7.8rem;
+  padding-top: 3.2rem;
+  border-bottom: 1px solid #f4f4f5;
+}
+
+.users-list__item-user p:first-child {
+  margin-left: 3.2rem;
+}
+
+.users-list__item-user p {
+  width: 16.67rem;
+  padding-right: 0.8rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #27272a;
+}
+
+.user__email#email {
+  width: 21rem;
+  overflow-wrap: break-word;
+}
+
+.user__drinks#drinks {
+  padding-left: 3rem;
+}
+
+.user__buttons {
+  /* margin-right: 3.2rem; */
 }
 /* BUTTONS ================================*/
 
@@ -348,6 +481,31 @@ nav {
   width: 100%;
   background: #4763e4;
   border-radius: 12px;
+}
+
+.btn--add-client {
+  background: #4763e4;
+  border-radius: 10px;
+}
+
+.btn--add-drink {
+  width: 8.133rem;
+  height: 4.6rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  padding: 8px 10px 8px 10px;
+  color: #5c73db;
+  background: #ffffff;
+  border: 1px solid #5c73db;
+  border-radius: 1rem;
+}
+
+.btn--gift-takeaway {
+  background-color: #dc2626;
+  color: #fff;
+  border: none;
 }
 
 /* MEDIA ============================================================ */

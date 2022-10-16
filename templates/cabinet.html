@@ -13,7 +13,7 @@
     <title>cabinet</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="container">
       <div class="sidebar">
         <div class="sidebar-top">
           <div class="sidebar-top__img">
@@ -46,6 +46,75 @@
             <div class="admin__info">
               <div class="admin__name">Мадина Нарышева</div>
               <div class="admin__email">admin@pochta.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-users">
+        <div class="section-users__rectangle">
+          <img
+            class="rectangle__bell"
+            src="../static/images/Bell.png"
+            alt="bell"
+          />
+        </div>
+
+        <h2 class="section-users__clients">Клиенты</h2>
+
+        <div class="section-users__search">
+          <input
+            class="section-users__input"
+            type="search"
+            placeholder="Поиск по имени, фамилии, номеру телефона"
+          />
+          <img
+            class="search-img"
+            src="../static/images/Search-icon.png"
+            alt="search icon"
+          />
+        </div>
+
+        <div class="section-users__btn">
+          <button class="btn btn--add-client">Добавить клиента +</button>
+        </div>
+
+        <div class="section-users__users-list">
+          <div class="users-list__table-info">
+            <p class="users-list__heading">Имя</p>
+            <p class="users-list__heading">Фамилия</p>
+            <p id="uheading" class="users-list__heading">E-mail</p>
+            <p class="users-list__heading">Телефон</p>
+            <p class="users-list__heading">Напитков</p>
+            <p class="users-list__heading">Действия</p>
+          </div>
+
+          <div class="users-list__item-user">
+            <p class="user__name">Нурсултан</p>
+            <p class="user__surname">Шибутов</p>
+            <p id="email" class="user__email">
+              alexandesdfsdfsdfsdfsfdr.foley@gmail.com
+            </p>
+            <p class="user__phone">+237 6 99 88 77 66</p>
+            <p id="drinks" class="user__drinks">4</p>
+            <div class="user__buttons">
+              <button class="btn btn--add-drink">Добавить напиток</button>
+              <button class="btn btn--add-drink btn--gift-takeaway">
+                Списать подарок
+              </button>
+            </div>
+          </div>
+          <div class="users-list__item-user">
+            <p class="user__name">Абай</p>
+            <p class="user__surname">Шибутов</p>
+            <p id="email" class="user__email">alexander.foley@gmail.com</p>
+            <p class="user__phone">+237 6 99 88 77 66</p>
+            <p id="drinks" class="user__drinks">4</p>
+            <div class="user__buttons">
+              <button class="btn btn--add-drink">Добавить напиток</button>
+              <button class="btn btn--add-drink btn--gift-takeaway">
+                Списать подарок
+              </button>
             </div>
           </div>
         </div>

@@ -275,14 +275,28 @@ nav {
 }
 
 .sidebar {
+  position: relative;
   height: 102.4rem;
   width: 25.6rem;
-  background: linear-gradient(
-    180deg,
-    #131c55,
-    rgba(19, 28, 85, 0.35),
-    rgba(19, 28, 85, 0)
-  );
+  background: #0e1b6b;
+}
+
+.sidebar::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+      180deg,
+      #131c55,
+      rgba(19, 28, 85, 0.35),
+      rgba(19, 28, 85, 0)
+    ),
+    url("../static/images/Sidebar-bg.png");
+  opacity: 0.25;
 }
 
 .sidebar-top {
@@ -290,21 +304,15 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0e1b6b;
 }
 
 .sidebar-low {
+  position: relative;
   height: 94.4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-image: linear-gradient(
-      180deg,
-      #131c55,
-      rgba(19, 28, 85, 0.35),
-      rgba(19, 28, 85, 0)
-    ),
-    url("../static/images/Sidebar-bg.png"); */
+  z-index: 100;
 }
 
 .sidebar-low__item {
@@ -434,9 +442,11 @@ th#longemail {
 }
 
 td {
-  padding: 3.2rem 0.2rem;
+  /* padding: 3.2rem 0.2rem; */
+  padding: 2rem 0.2rem 4rem 0;
   text-align: center;
   overflow-wrap: break-word;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .users-list__low-part {

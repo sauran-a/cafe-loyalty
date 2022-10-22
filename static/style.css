@@ -12,7 +12,6 @@ p {
 }
 
 a:link {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -314,6 +313,11 @@ nav {
   margin-left: 2rem;
 }
 
+.sidebar-low__link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .sibedar-low__img {
   margin-right: 0.8rem;
 }
@@ -340,7 +344,7 @@ nav {
 }
 
 .section-users {
-  background-color: E5E5E5;
+  background-color: #f3f3f3;
 }
 
 .section-users__rectangle {
@@ -387,6 +391,9 @@ nav {
 }
 
 .section-users__users-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-top: 1.6rem;
   margin-left: 4rem;
   width: 110.4rem;
@@ -395,65 +402,67 @@ nav {
   border-radius: 1.2rem;
 }
 
-.users-list__table-info {
+.table-users__heading {
+  color: #a1a1aa;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding-bottom: 3.2rem;
+}
+
+/* TABLE ================ */
+.table-users {
+  width: 100%;
+  padding-top: 3.2rem;
+}
+
+/* td,
+tr,
+th {
+  border: 1px solid black;
+} */
+
+th {
+  padding: 1.2rem 1rem;
+}
+th#drink {
+  width: 5%;
+}
+
+th#longemail {
+  width: 5%;
+}
+
+td {
+  padding: 3.2rem 0.2rem;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.users-list__low-part {
+  margin-left: 3.2rem;
+  margin-top: 1.9rem;
+  margin-bottom: 1.8rem;
   display: flex;
   justify-content: space-between;
 }
 
-.users-list__heading {
-  width: 16.67rem;
-  font-weight: 500;
+.low-part__info p {
+  font-weight: 400;
   font-size: 1.6rem;
-  line-height: 1.9rem;
+  line-height: 2.4rem;
   color: #a1a1aa;
-  margin-top: 3.2rem;
-  margin-right: 0.8rem;
 }
 
-.users-list__heading#uheading {
-  width: 20rem;
-  margin-right: 1rem;
-}
-
-.users-list__heading:first-child {
-  margin-left: 3.2rem;
-}
-.users-list__heading:last-child {
+.pagination__box {
   margin-right: 3.2rem;
 }
 
-.users-list__item-user {
-  display: flex;
-  /* justify-content: space-between; */
-  height: 7.8rem;
-  padding-top: 3.2rem;
-  border-bottom: 1px solid #f4f4f5;
-}
-
-.users-list__item-user p:first-child {
-  margin-left: 3.2rem;
-}
-
-.users-list__item-user p {
-  width: 16.67rem;
-  padding-right: 0.8rem;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+.pagination__item {
   color: #27272a;
 }
-
-.user__email#email {
-  width: 21rem;
-  overflow-wrap: break-word;
-}
-
-.user__drinks#drinks {
-  padding-left: 3rem;
-}
-
-.user__buttons {
-  /* margin-right: 3.2rem; */
+.pagination__item.active {
+  color: #fff;
 }
 /* BUTTONS ================================*/
 
@@ -506,6 +515,29 @@ nav {
   background-color: #dc2626;
   color: #fff;
   border: none;
+}
+
+.btn--pagination {
+  width: 4.1rem;
+  height: 3.8rem;
+  background: #ffffff;
+  padding: 0;
+  border: 1px solid #d4d4d8;
+}
+
+.btn--pagination-active {
+  background-color: #4763e4;
+  color: #fff;
+}
+
+.btn--pagination-left {
+  border: 1px solid #d4d4d8;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.btn--pagination-right {
+  border: 1px solid #d4d4d8;
+  border-radius: 0px 6px 6px 0px;
 }
 
 /* MEDIA ============================================================ */

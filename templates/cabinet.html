@@ -1,0 +1,190 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato:wght@400;700&family=Mulish:wght@400;500;700&family=Trispace&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>cabinet</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <div class="sidebar-top__img">
+            <img
+              class="sidebar__logo"
+              src="../static/images/logo.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+
+        <div class="sidebar-low">
+          <div class="sidebar-low__item">
+            <div class="sibedar-low__img">
+              <img
+                class="sidebar-low__pic"
+                src="../static/images/People.png"
+                alt="people logo"
+              />
+            </div>
+            <div class="sidebar-low__text">
+              <a class="sidebar-low__link" href="#">Клиенты</a>
+            </div>
+          </div>
+
+          <div class="sidebar-low__admin">
+            <div class="admin__logo">
+              <img src="../static/images/admin-pic.png" alt="admin photo" />
+            </div>
+            <div class="admin__info">
+              <div class="admin__name">Мадина Нарышева</div>
+              <div class="admin__email">admin@pochta.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-users">
+        <div class="section-users__rectangle">
+          <img
+            class="rectangle__bell"
+            src="../static/images/Bell.png"
+            alt="bell"
+          />
+        </div>
+
+        <h2 class="section-users__clients">Клиенты</h2>
+
+        <div class="section-users__search">
+          <input
+            class="section-users__input"
+            type="search"
+            placeholder="Поиск по имени, фамилии, номеру телефона"
+          />
+          <img
+            class="search-img"
+            src="../static/images/Search-icon.png"
+            alt="search icon"
+          />
+        </div>
+
+        <div class="section-users__btn">
+          <button class="btn btn--add-client">Добавить клиента +</button>
+        </div>
+
+        <div class="section-users__users-list">
+          <table class="table-users">
+            <thead class="table-users__heading">
+              <tr>
+                <th class="th" scope="col">Имя</th>
+                <th scope="col">Фамилия</th>
+                <th id="longemail" scope="col">E-mail</th>
+                <th scope="col">Телефон</th>
+                <th id="drink" scope="col">Напитков</th>
+                <th scope="col">Действия</th>
+              </tr>
+            </thead>
+            <tbody id="data">
+              <tr class="table-users__row">
+                <td class="table-users__user-name">Нурсултан</td>
+                <td class="table-users__user-surname">Шибутов</td>
+                <td id="longemail" class="table-users__user-email">
+                  alexande.foley@gmail.com
+                </td>
+                <td class="table-users__user-phone">+237 6 99 88 77 66</td>
+                <td id="drink" class="table-users__user-drinks">4</td>
+                <td class="table-users__user-actions">
+                  <button class="btn btn--add-drink">Добавить напиток</button>
+                  <button class="btn btn--add-drink btn--gift-takeaway">
+                    Списать подарок
+                  </button>
+                </td>
+              </tr>
+
+              <tr class="table-users__row">
+                <td class="table-users__user-name">Нурсултан</td>
+                <td class="table-users__user-surname">Шибутов</td>
+                <td id="longemail" class="table-users__user-email">
+                  alexandesdfsdfsdfsdfsfdr.foley@gmail.com
+                </td>
+                <td class="table-users__user-phone">+237 6 99 88 77 66</td>
+                <td id="drink" class="table-users__user-drinks">4</td>
+                <td class="table-users__user-actions">
+                  <button class="btn btn--add-drink">Добавить напиток</button>
+                  <button class="btn btn--add-drink btn--gift-takeaway">
+                    Списать подарок
+                  </button>
+                </td>
+              </tr>
+
+              <tr class="table-users__row">
+                <td class="table-users__user-name">Васисуасилий</td>
+                <td class="table-users__user-surname">Чукманбетович</td>
+                <td id="longemail" class="table-users__user-email">
+                  alexandesdfsdfsd1231243234.foley@gmail.com
+                </td>
+                <td class="table-users__user-phone">+237 6 99 88 77 66</td>
+                <td id="drink" class="table-users__user-drinks">4</td>
+                <td class="table-users__user-actions">
+                  <button class="btn btn--add-drink">Добавить напиток</button>
+                  <button class="btn btn--add-drink btn--gift-takeaway">
+                    Списать подарок
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="users-list__low-part">
+            <div class="low-part__info">
+              <p class="low-part__result">100 результатов</p>
+            </div>
+
+            <div class="low-part__pagination">
+              <div class="pagination__box">
+                <button class="btn btn--pagination btn--pagination-left">
+                  <a class="pagination__item" href="#">
+                    <img src="../static/images/Icon-left.png" alt="left" />
+                  </a>
+                </button>
+                <button class="btn btn--pagination btn--pagination-active">
+                  <a class="pagination__item active" href="#">1</a>
+                </button>
+                <button class="btn btn--pagination">
+                  <a class="pagination__item" href="#">2</a>
+                </button>
+                <button class="btn btn--pagination">
+                  <a class="pagination__item" href="#">3</a>
+                </button>
+                <button class="btn btn--pagination">
+                  <a class="pagination__item" href="#">...</a>
+                </button>
+                <button class="btn btn--pagination">
+                  <a class="pagination__item" href="#">8</a>
+                </button>
+                <button class="btn btn--pagination">
+                  <a class="pagination__item" href="#">9</a>
+                </button>
+                <button class="btn btn--pagination">
+                  <a class="pagination__item" href="#">10</a>
+                </button>
+                <button class="btn btn--pagination btn--pagination-right">
+                  <a class="pagination__item" href="#">
+                    <img src="../static/images/Icon-right.png" alt="right" />
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
